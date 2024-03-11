@@ -1,60 +1,141 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PlayZone</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PlayZone</title>
 
-    <style>
-        #search-container {
-            text-align: center;
-            margin-top: 20px;
-        }
+        <style>
+            body {
+                background-image: url("Imagenes/free.jpg");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 100vh;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
 
-        #search-form {
-            display: inline-block;
-        }
+            h1 {
+                font-size: 60px;
+                font-weight: bold;
+                color: #df1313;
+                margin-top: 20px;
+                text-shadow: 2px 2px 4px #000000;
+            }
 
-        #search-input {
-            padding: 5px;
-            font-size: 16px;
-        }
+            h2 {
+                font-size: 30px;
+                font-weight: bold;
+                color: #ffffff;
+                margin-top: 20px;
+                text-shadow: 2px 2px 4px #000000;
+            }
+           
+            p {
+                font-size: 30px;
+                font-weight: bold;
+                color: #ffffff;
+                margin-top: 20px;
+                text-shadow: 2px 2px 4px #000000;
+            }
+            
+            #search-container {
+                text-align: center;
+                margin-top: 20px;
+            }
 
-        #search-button {
-            padding: 5px 10px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        .fondo{
-            background-image: url("Imagenes/Fondo.JPG");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            height: 100vh;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-    </style>
-</head>
+            #search-form {
+                display: inline-block;
+            }
 
-<body class="fondo">
+            #search-input {
+                padding: 5px;
+                font-size: 16px;
+            }
 
-    <center>
-        <caption> Free To Play - Los Sims 4  hola </caption>
+            #search-button {
+                padding: 5px 10px;
+                font-size: 16px;
+                cursor: pointer;
+            }
 
-        <div id="search-container">
-            <form id="search-form">
-                <input type="text" id="search-input" placeholder="Buscar...">
-                <button type="submit" id="search-button">Buscar</button>
-            </form>
-        </div>
-        
+            nav {
+                margin-top: 20px;
+            }
+
+            nav ol {
+                list-style: none;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            nav li {
+                margin: 10px;
+                background-color: #ffffff;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 300px;
+                height: 150px;               
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                border-radius: 10px;
+            }
+
+            nav a {
+                text-decoration: none;
+                color: #000000;
+                font-size: 20px;
+                padding: 20px;
+                width: 100%;
+                height: 100%;
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px;
+            }
+
+            .game_ftp1 {background-image: url("Imagenes/over.jpg");}
+
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>PlayZone</h1>
+        </header>
+        <center>
+            <h2>Overwatch 2</h2>
+
+            <div>
+                <nav>
+                    <ol>
+                        <li class="game_ftp1"><a href="Game_FTP1.html"></a></li>
+                        <p>Overwatch® 2 es un shooter por equipos aclamado por la crítica ambientado 
+                            en un futuro optimista con un plantel de héroes en evolución. 
+                            Júntate con amigos y jugad hoy mismo.</p>
+                    <p>FREE TO PLAY</p> <!--Valor de referencia por Steam-->
+                    </ol>
+                </nav>
+            </div>
+                    
         <br/>
-        <p><a href="index.html">Volver a CATEGORIAS</a></p>
-    </center>
-</body>
+        <h2><a href="Cat_Free.html">Volver</a></h2>
+        </center>
+    </body>
+    <footer>
+        <h2>&copy; PlayZone</h2>
+    </footer>
 </html>
