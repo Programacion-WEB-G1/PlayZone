@@ -20,6 +20,32 @@
                 text-align: center;
             }
 
+            .menu {
+                list-style: none;
+                padding: 0;
+                background: #092327;
+                width: 90%;
+                max-width: 500px;
+                margin: auto;
+                align-self: center;
+            }
+
+            .menu li a{
+                text-decoration: none;
+                color: white;
+                padding: 20px;
+                display: block;
+            }
+            .menu li {
+                display: inline-block;
+                text-align: center;
+
+            }
+            .menu li a:hover{
+
+                background: #ef8354 ;
+            }
+
             h1 {
                 font-size: 60px;
                 font-weight: bold;
@@ -32,6 +58,21 @@
                 font-size: 30px;
                 font-weight: bold;
                 color: #ffffff;
+                margin-top: 20px;
+                text-shadow: 2px 2px 4px #000000;
+            }
+
+            h3 {
+                font-size: 25px;
+                font-weight: bold;
+                color: #ffffff;
+                margin-top: 20px;
+                text-shadow: 2px 2px 4px #000000;
+            }
+            h6 {
+                font-size: 15px;
+                font-weight: bold;
+                color: #490b0b;
                 margin-top: 20px;
                 text-shadow: 2px 2px 4px #000000;
             }
@@ -110,13 +151,18 @@
     </head>
 
     <body>
+        <ul class="menu">
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
         <header>
+
             <h1>PlayZone</h1>
             
             <nav>
-                <ul>
-                    <!-- Aquí se agregarán los enlaces a las categorías -->
-                </ul>
+                <ol>
+                    <h6>Tu mejor paginas de video juego</h6>
+                </ol>
             </nav>
         </header>
         <center>
@@ -136,12 +182,12 @@
             <div>
                 <nav>
                     <ol>
-                        <li class="cat-terror"><a href="Cat_Terror.html"><h2>TERROR</h2></a></li>
-                        <li class="cat-accion"><a href="Cat_Accion.html"><h2>ACCION</h2></a></li>
-                        <li class="cat-mundo"><a href="Cat_Mundo.html"><h2>MUNDO ABIERTO</h2></a></li>
-                        <li class="cat-free"><a href="Cat_Free.html"><h2>FREE TO PLAY</h2></a></li>
-                        <li class="cat-super"><a href="Cat_Supervivencia.html"><h2>SUPERVIVENCIA</h2></a></li>
-                        <li class="cat-carrera"><a href="Cat_Carreras.html"><h2>CARRERAS</h2></a></li>
+                        <li class="cat-terror"><a href="Cat_Terror.html"><h3>TERROR</h3></a></li>
+                        <li class="cat-accion"><a href="Cat_Accion.html"><h3>ACCION</h3></a></li>
+                        <li class="cat-mundo"><a href="Cat_Mundo.html"><h3>MUNDO ABIERTO</h3></a></li>
+                        <li class="cat-free"><a href="Cat_Free.html"><h3>FREE TO PLAY</h3></a></li>
+                        <li class="cat-super"><a href="Cat_Supervivencia.html"><h3>SUPERVIVENCIA</h3></a></li>
+                        <li class="cat-carrera"><a href="Cat_Carreras.html"><h3>CARRERAS</h3></a></li>
                     </ol>
                 </nav>
             </div>
