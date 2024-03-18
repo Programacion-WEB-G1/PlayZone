@@ -75,7 +75,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>Formulario Clientes</h1>
+    <h1>Registro de Clientes</h1>
    
     <form class="row">
       <!-- Nombre y Apellido-->
@@ -137,14 +137,15 @@
         
         <div class="absolute-buttons">
           <button type="clear" class="btn btn-primary">Limpiar</button>
-          <button class="btn btn-primary" onclick="verificarContraseña()">Enviar</button>
+          <button class="btn btn-primary" onclick="verificarContrasena()">Enviar</button>
         </div>
       
       </form>
     </div>
+    <h2><a href="index.html">Volver</a></h2>
 </body>
 <script>
-  function verificarContraseña() {
+  function verificarContrasenaa() {
       var pass1 = document.getElementById("inputPassword6").value;
       var pass2 = document.getElementById("inputPassword7").value;
       var tieneMayuscula = /[A-Z]/.test(pass1);
