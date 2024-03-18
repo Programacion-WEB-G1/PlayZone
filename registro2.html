@@ -14,8 +14,6 @@
             margin: 0;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
             text-align: center;
             position: relative;
         }
@@ -71,9 +69,40 @@
         .btn-primary:hover {
             background-color: #0056b3;
         }
+
+        .menu {
+                list-style: none;
+                background: #092327;
+                width: 90%;
+                max-width: 500px;
+                margin: auto;
+                align-self: center;
+            }
+
+            .menu li a{
+                text-decoration: none;
+                color: white;
+                padding: 20px;
+                display: block;
+            }
+            .menu li {
+                display: inline-block;
+                text-align: center;
+
+            }
+            .menu li a:hover{
+                background: #ef8354 ;
+            }
+        
     </style>
 </head>
 <body>
+  <div>
+            <ul class="menu">
+                <li><a href="registro2.html">Registro Clientes</a></li>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </div>
   <div class="container">
     <h1>Registro de Clientes</h1>
    
