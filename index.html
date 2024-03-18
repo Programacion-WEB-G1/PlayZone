@@ -20,29 +20,33 @@
                 text-align: center;
             }
 
+            .menu-container {
+                width: 100%;
+                background: rgba(9, 35, 39, 0.9);
+                padding: 10px 0;
+                box-sizing: border-box;
+            }
+
             .menu {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
                 list-style: none;
-                background: #092327;
-                width: 90%;
-                max-width: 500px;
-                margin: auto;
-                align-self: center;
+                margin: 0;
+                padding: 0;
+                text-align: center;
             }
 
-            .menu li a{
+            .menu li {
+                display: inline-block;
+            }
+
+            .menu li a {
                 text-decoration: none;
                 color: white;
                 padding: 20px;
-                display: block;
             }
-            .menu li {
-                display: inline-block;
-                text-align: center;
 
-            }
-            .menu li a:hover{
-                background: #ef8354 ;
+            .menu li a:hover {
+                background: #ef8354;
             }
 
             h1 {
@@ -79,7 +83,7 @@
                 margin-top: 20px;
                 text-shadow: 2px 2px 4px #efe7e7;
             }
-            
+
             #search-container {
                 text-align: center;
                 margin-top: 20px;
@@ -129,7 +133,7 @@
                 background-position: center;
                 background-repeat: no-repeat;
                 width: 300px;
-                height: 150px;               
+                height: 150px;
                 overflow: hidden;
                 display: flex;
                 align-items: center;
@@ -152,59 +156,79 @@
                 border-radius: 10px;
             }
 
-            .cat-terror {background-image: url("Imagenes/terror.jpg");}
-            .cat-accion {background-image: url("Imagenes/accion.jpg");}
-            .cat-mundo {background-image: url("Imagenes/abierto.jpg");}
-            .cat-free {background-image: url("Imagenes/free.jpg");}
-            .cat-super {background-image: url("Imagenes/super.jpg");}
-            .cat-carrera {background-image: url("Imagenes/carrera.jpg");}
-
+            .cat-terror {
+                background-image: url("Imagenes/terror.jpg");
+            }
+            .cat-accion {
+                background-image: url("Imagenes/accion.jpg");
+            }
+            .cat-mundo {
+                background-image: url("Imagenes/abierto.jpg");
+            }
+            .cat-free {
+                background-image: url("Imagenes/free.jpg");
+            }
+            .cat-super {
+                background-image: url("Imagenes/super.jpg");
+            }
+            .cat-carrera {
+                background-image: url("Imagenes/carrera.jpg");
+            }
         </style>
     </head>
 
     <body>
-        <div>
+        <div class="menu-container">
             <ul class="menu">
                 <li><a href="registro2.html">Registro Clientes</a></li>
                 <li><a href="index.html">Inicio</a></li>
             </ul>
         </div>
-        
-        <header>
 
+        <header>
             <h1>PlayZone</h1>
-            
+
             <nav>
                 <ol>
                     <h6>Tu mejor paginas de video juegos</h6>
                 </ol>
             </nav>
         </header>
-            <h2>CATEGORIAS</h2>
+        <h2>CATEGORIAS</h2>
 
-            <div id="search-container">
-                <form id="search-form">
-                    <input
-                        type="text"
-                        id="search-input"
-                        placeholder="Buscar..."
-                    />
-                    <button type="submit" id="search-button">Buscar</button>
-                </form>
-            </div>
+        <div id="search-container">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Buscar..." />
+                <button type="submit" id="search-button">Buscar</button>
+            </form>
+        </div>
 
-            <div>
-                <nav>
-                    <ol>
-                        <li class="cat-terror"><a href="Cat_Terror.html"><h3>TERROR</h3></a></li>
-                        <li class="cat-accion"><a href="Cat_Accion.html"><h3>ACCION</h3></a></li>
-                        <li class="cat-mundo"><a href="Cat_Mundo.html"><h3>MUNDO ABIERTO</h3></a></li>
-                        <li class="cat-free"><a href="Cat_Free.html"><h3>FREE TO PLAY</h3></a></li>
-                        <li class="cat-super"><a href="Cat_Supervivencia.html"><h3>SUPERVIVENCIA</h3></a></li>
-                        <li class="cat-carrera"><a href="Cat_Carreras.html"><h3>CARRERAS</h3></a></li>
-                    </ol>
-                </nav>
-            </div>
+        <div>
+            <nav>
+                <ol>
+                    <li class="cat-terror">
+                        <a href="Cat_Terror.html"><h3>TERROR</h3></a>
+                    </li>
+                    <li class="cat-accion">
+                        <a href="Cat_Accion.html"><h3>ACCION</h3></a>
+                    </li>
+                    <li class="cat-mundo">
+                        <a href="Cat_Mundo.html"><h3>MUNDO ABIERTO</h3></a>
+                    </li>
+                    <li class="cat-free">
+                        <a href="Cat_Free.html"><h3>FREE TO PLAY</h3></a>
+                    </li>
+                    <li class="cat-super">
+                        <a href="Cat_Supervivencia.html"
+                            ><h3>SUPERVIVENCIA</h3></a
+                        >
+                    </li>
+                    <li class="cat-carrera">
+                        <a href="Cat_Carreras.html"><h3>CARRERAS</h3></a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
     </body>
     <footer>
         <h2>&copy; PlayZone</h2>
