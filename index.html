@@ -11,7 +11,7 @@
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
-                height: 100vh;
+                min-height: 100vh;
                 margin: 0;
                 display: flex;
                 flex-direction: column;
@@ -163,10 +163,13 @@
     </head>
 
     <body>
-        <ul class="menu">
-            <li><a href="registro2.html">Registro Clientes</a></li>
-            <li><a href="index.html">Inicio</a></li>
-        </ul>
+        <div>
+            <ul class="menu">
+                <li><a href="registro2.html">Registro Clientes</a></li>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </div>
+        
         <header>
 
             <h1>PlayZone</h1>
@@ -177,7 +180,6 @@
                 </ol>
             </nav>
         </header>
-        <center>
             <h2>CATEGORIAS</h2>
 
             <div id="search-container">
@@ -203,7 +205,6 @@
                     </ol>
                 </nav>
             </div>
-        </center>
     </body>
     <footer>
         <h2>&copy; PlayZone</h2>
