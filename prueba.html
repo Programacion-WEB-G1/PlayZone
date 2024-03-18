@@ -112,7 +112,7 @@
                 <li><a href="index.html">Inicio</a></li>
             </ul>
             <div>
-              <button class="btn btn-secondary" href="index.html" formnovalidate>Volver</button>
+            <button class="btn btn-secondary" href="index.html" formnovalidate>Volver</button>
           </div>
         </div>
   <div class="container">
@@ -190,19 +190,4 @@
   function verificarContrasenaa() {
       var pass1 = document.getElementById("inputPassword6").value;
       var pass2 = document.getElementById("inputPassword7").value;
-      var tieneMayuscula = /[A-Z]/.test(pass1);
-      var tieneNumero = /[0-9]/.test(pass1); 
-      if (tieneMayuscula && tieneNumero) {
-
-      } else {
-          alert("La contraseña debe contener al menos una mayúscula y un número.");
-          return; 
-      }
-      if (pass1 === pass2) {
-      
-      } else {
-          alert("Las contraseñas deben ser iguales");
-      } 
-  }
-</script>
-</html>
+      var tieneMay
