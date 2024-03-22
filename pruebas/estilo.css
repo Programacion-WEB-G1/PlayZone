@@ -1,0 +1,131 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font: -1.25em;}
+ul{list-style: none;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid  rgba(0, 0, 0, 3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: red;
+
+}
+
+button:hover{
+    background-color: salmon;
+}
+
+.container{
+    max-width: 14000px;
+    margin: auto;
+}
+
+.color-nosotros{
+    color: red;
+}
+
+header{
+    background-color: rgba(255, 255, 255,);
+}
+
+header.logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: chartreuse;
+    font-size: 1.6em;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+header a:hover {
+    color: brown;
+
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url("../Imagenes/Fondo.JPG");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+}
+#hero h1{
+    color: white;
+}
+
+#nosotros {
+
+}
+
+#nosotros .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#categoria{
+    background-color: rgba(30, 30, 30,);
+    color: green;
+    text-align: center  ;
+
+}
+
+#categoria.container{
+    padding: 100px 0px; 
+    
+}
+#categoria h2{
+    margin-top: 0;
+
+
+}
+#categoria p{
+    display: none;
+}
+
+#categoria .tipo {
+
+}
+.tipo:nth-child2{
+    
+}
+.tipo:first-child{
+    
+}
