@@ -42,11 +42,11 @@ header{
     background-color: rgba(255, 255, 255,);
 }
 
-header.logo{
+header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: rgb(255, 0, 191);
+    color: rgb(255, 0, 0);
     font-size: 1.6em;
 }
 
@@ -98,7 +98,7 @@ header a:hover {
 
 #nosotros .container{
     text-align: center;
-    padding: 200px 12px;
+    padding: 50px 12px;
 }
 
 #categoria{
