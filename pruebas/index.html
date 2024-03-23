@@ -11,9 +11,9 @@
         <div class="container">
             <p class="logo">PlayZone</p>
             <nav>
-                <a href="#">Nosotros</a>
-                <a href="#">Subcribete</a>
-                <a href="#">jueogs</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#registro">Subcribete</a>
+                <a href="#categoria">jueogs</a>
 
             </nav>
         </div>
@@ -104,5 +104,147 @@
             <button>Busca aca  </button>
         </div>
     </Section>
+    <section id="registro">
+        <div class="container">
+            <h2>Registro</h2>
+            <form class="row">
+                <!-- Nombre y Apellido-->
+                <div class="col-lg-6 col-md-8 col-sm-10">
+                    <label for="validationDefault01" class="form-label"
+                        ><h2>Nombres</h2></label
+                    >
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="validationDefault01"
+                        value=""
+                        required
+                    />
+                    <div class="valid-feedback"></div>
+                </div>
+
+                <div class="col-lg-6 col-md-8 col-sm-10">
+                    <label for="validationDefault02" class="form-label"
+                        ><h2>Apellidos</h2></label
+                    >
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="validationDefault02"
+                        value=""
+                        required
+                    />
+                    <div class="valid-feedback"></div>
+                </div>
+                <!-- usuario -->
+                <div class="col-lg-6 col-md-8 col-sm-10">
+                    <label for="validationDefaultUsername" class="form-label"
+                        ><h2>Username</h2></label
+                    >
+                    <div class="input-group">
+                        <span class="input-group-text" id="inputGroupPrepend2"
+                            >@</span
+                        >
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="validationDefaultUsername"
+                            aria-describedby="inputGroupPrepend2"
+                            required
+                        />
+                        <div class="valid-feedback"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-10">
+                    <label for="exampleInputEmail1"><h2>Email</h2></label>
+                    <input
+                        type="email"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                    />
+                    <div class="valid-feedback"></div>
+                </div>
+                <!-- se crea el script para verificar que la pass tenga Mayus y numero -->
+
+                <div class="col-lg-6 col-md-8 col-sm-10">
+                    <div class="col-auto">
+                        <label for="inputPassword6" class="col-form-label"
+                            ><h2>Password</h2></label
+                        >
+                    </div>
+                    <div class="col-auto">
+                        <input
+                            type="password"
+                            maxlength="13"
+                            minlength="8"
+                            id="inputPassword6"
+                            class="form-control"
+                            aria-describedby="passwordHelpInline"
+                        />
+                    </div>
+                    <div class="col-auto">
+                        <div class="valid-feedback"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-8 col-sm-10">
+                    <div class="col-auto">
+                        <label for="inputPassword7" class="col-form-label"
+                            ><h2>Repite tu Password</h2></label
+                        >
+                    </div>
+                    <div class="col-auto">
+                        <input
+                            type="password"
+                            maxlength="13"
+                            minlength="8"
+                            id="inputPassword7"
+                            class="form-control"
+                            aria-describedby="passwordHelpInline"
+                        />
+                    </div>
+                    <div class="col-auto">
+                        <div class="valid-feedback"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-8 col-sm-10">
+                    <label for="validationDefault05" class="form-label"
+                        ><h2>Fecha de Nacimiento</h2></label
+                    >
+                    <input
+                        type="date"
+                        class="form-control"
+                        id="validationDefault05"
+                    />
+                </div>
+
+                <div class="col-lg-6 col-md-8 col-sm-10">
+                    <label for="validationDefault05" class="form-label"
+                        ><h2>Direcci&oacute;n</h2></label
+                    >
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="validationDefault05"
+                    />
+                </div>
+
+                <div>
+                    <button type="clear" class="btn btn-primary">
+                        Limpiar
+                    </button>
+                    <button
+                        class="btn btn-primary"
+                        onclick="verificarContrasena()"
+                    >
+                        Enviar
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </section>
 </body>
 </html>

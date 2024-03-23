@@ -2,6 +2,9 @@
     box-sizing:border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -113,7 +116,7 @@ header a:hover {
     
 }
 #categoria h2{
-    margin-top: 0;
+    margin-top: 12px;
     font-size: 3.2em;
 
 
