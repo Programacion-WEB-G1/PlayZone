@@ -93,6 +93,7 @@ header a:hover {
 
 #nosotros {
 
+
 }
 
 #nosotros .container{
@@ -101,18 +102,19 @@ header a:hover {
 }
 
 #categoria{
-    background-color: rgba(30, 30, 30,);
-    color: green;
+    background-color: rgb(17, 15, 15);
+    color: rgb(117, 12, 12);
     text-align: center  ;
 
 }
 
 #categoria.container{
-    padding: 100px 0px; 
+    padding: 150px 12px; 
     
 }
 #categoria h2{
     margin-top: 0;
+    font-size: 3.2em;
 
 
 }
@@ -123,9 +125,51 @@ header a:hover {
 #categoria .tipo {
 
 }
-.tipo:nth-child2{
-    
-}
+
 .tipo:first-child{
-    
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url("../Imagenes/terror.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+}
+
+.tipo:nth-child(2){
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url("../Imagenes/accion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+}
+
+.tipo:nth-child(3){
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url("../Imagenes/abierto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+}
+
+.tipo:nth-child(4){
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url("../Imagenes/free.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+}
+
+.tipo:nth-child(5){
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url("../Imagenes/super.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+}
+
+.tipo:nth-child(6){
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url("../Imagenes/carrera.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
 }
