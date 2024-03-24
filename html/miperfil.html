@@ -56,19 +56,20 @@
             </ol>
         </nav>
     </header>
+    
     <div class="container profile-container">
         <h2>Mi Perfil</h2>
         <div class="profile-info">
             <label for="nombre"><h4>Nombre:</h4></label>
-            <p>Juan Pérez</p>
+            <p>Dani Arias</p>
         </div>
         <div class="profile-info">
             <label for="username"><h4>Username:</h4></label>
-            <p>juan_perez123</p>
+            <p>Dani123</p>
         </div>
         <div class="profile-info">
             <label for="email"><h4>Email:</h4></label>
-            <p>juan@example.com</p>
+            <p>dani@example.com</p>
         </div>
         <div class="profile-info">
             <label for="fecha_nacimiento"><h4>Fecha de Nacimiento:</h4></label>
@@ -76,156 +77,11 @@
         </div>
         <div class="profile-info">
             <label for="direccion"><h4>Dirección:</h4></label>
-            <p>Calle 123, Ciudad, País</p>
+            <p>Temuco</p>
         </div>
         <div class="text-center">
-            <button class="btn btn-primary btn-edit-profile" id="btn-editar">Editar Perfil</button>
         </div>
     </div>
-    <div class="container">
-      
-      <form id="form-edicion" class="row justify-content-center">
-            <!-- Nombre y Apellido-->
-            <div class="col-lg-6 col-md-8 col-sm-10">
-                <h3><label for="validationDefault01" class="form-label"
-                    >Nombres</label></h3>
-                <input
-                    type="text"
-                    class="form-control"
-                    id="validationDefault01"
-                    value=""
-                    required
-                />
-                <div class="valid-feedback"></div>
-            </div>
-
-            <div class="col-lg-6 col-md-8 col-sm-10">
-                <label for="validationDefault02" class="form-label"
-                    ><h2>Apellidos</h2></label
-                >
-                <input
-                    type="text"
-                    class="form-control"
-                    id="validationDefault02"
-                    value=""
-                    required
-                />
-                <div class="valid-feedback"></div>
-            </div>
-            <!-- usuario -->
-            <div class="col-lg-6 col-md-8 col-sm-10">
-                <label for="validationDefaultUsername" class="form-label"
-                    ><h2>Username</h2></label
-                >
-                <div class="input-group">
-                    <span class="input-group-text" id="inputGroupPrepend2"
-                        >@</span
-                    >
-                    <input
-                        type="text"
-                        class="form-control"
-                        id="validationDefaultUsername"
-                        aria-describedby="inputGroupPrepend2"
-                        required
-                    />
-                    <div class="valid-feedback"></div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-8 col-sm-10">
-                <label for="exampleInputEmail1"><h2>Email</h2></label>
-                <input
-                    type="email"
-                    class="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
-                />
-                <div class="valid-feedback"></div>
-            </div>
-            <!-- se crea el script para verificar que la pass tenga Mayus y numero -->
-
-            <div class="col-lg-6 col-md-8 col-sm-10">
-                <div class="col-auto">
-                    <label for="inputPassword6" class="col-form-label"
-                        ><h2>Password</h2></label
-                    >
-                </div>
-                <div class="col-auto">
-                    <input
-                        type="password"
-                        maxlength="13"
-                        minlength="8"
-                        id="inputPassword6"
-                        class="form-control"
-                        aria-describedby="passwordHelpInline"
-                    />
-                </div>
-                <div class="col-auto">
-                    <div class="valid-feedback"></div>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-8 col-sm-10">
-                <div class="col-auto">
-                    <label for="inputPassword7" class="col-form-label"
-                        ><h2>Repite tu Password</h2></label
-                    >
-                </div>
-                <div class="col-auto">
-                    <input
-                        type="password"
-                        maxlength="13"
-                        minlength="8"
-                        id="inputPassword7"
-                        class="form-control"
-                        aria-describedby="passwordHelpInline"
-                    />
-                </div>
-                <div class="col-auto">
-                    <div class="valid-feedback"></div>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-8 col-sm-10">
-                <label for="validationDefault05" class="form-label"
-                    ><h2>Fecha de Nacimiento</h2></label
-                >
-                <input
-                    type="date"
-                    class="form-control"
-                    id="validationDefault05"
-                />
-            </div>
-
-            <div class="col-lg-6 col-md-8 col-sm-10">
-                <label for="validationDefault05" class="form-label"
-                    ><h2>Direcci&oacute;n</h2></label
-                >
-                <input
-                    type="text"
-                    class="form-control"
-                    id="validationDefault05"
-                />
-            </div>
-
-            <div>
-                <button
-                    class="btn btn-primary"
-                    onclick="Validar();"
-                >
-                    Enviar
-                </button>
-                <button type="clear" class="btn btn-primary">
-                    Limpiar
-                </button>
-            </div>
-    </div>
     <h3><a href="index.html">Volver</a></h3>
-    <script>
-      // Función para mostrar el formulario de edición cuando se hace clic en el botón "Editar"
-      document.getElementById('btn-editar').addEventListener('click', function() {
-          // Mostrar el formulario de edición
-          document.getElementById('form-edicion').style.display = 'flex';
-      });
-  </script>
 </body>
 </html>
