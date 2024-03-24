@@ -39,3 +39,8 @@ function verificarContrasena() {
 
     return true;
 }
+
+document.getElementById('btn-editar').addEventListener('click', function() {
+    // Mostrar el formulario de edición
+    document.getElementById('form-edicion').style.display = 'flex';
+});
