@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+header {
+    position: relative;
+    z-index: 1; /* Agregar z-index */
+    text-align: center;
+    padding-top: 20px;
+}
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #343a40;
+    padding-top: 20px;
+    overflow-y: auto;
+    z-index: 0
+}
+
+.category-title h3 {
+    color: #fff;
+    text-align: center;
+}
+
+.category {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.category a {
+    color: white;
+    text-decoration: none;
+}
+
+.category h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+/* Contenido principal */
+.main-content {
+    padding-left: 220px;
+    
+}
+
+
+/* Juegos */
+.game_ter1 {
+    background-image: url("../Imagenes/residentevil4.jpg");
+}
+
+.game_ter2 {
+    background-image: url("../Imagenes/diyinglight.jpg");
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        position: static;
+        width: 100%;
+        height: auto;
+        padding-top: 0;
+    }
+
+    .main-content {
+        padding-left: 0;
+    }
+}
