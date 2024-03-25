@@ -1,4 +1,3 @@
-
 body {
     background-image: url("./Imagenes/Fondo.JPG");
     background-size: cover;
@@ -41,6 +40,7 @@ h3 {
     text-shadow: 2px 2px 4px #000000;
     text-align: center;
 }
+
 h6 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
@@ -130,35 +130,6 @@ input {
     background: #ef8354;
 }
 
-#search-container {
-    text-align: center;
-    margin-top: 20px;
-}
-
-#search-form {
-    display: inline-block;
-}
-
-#search-input {
-    padding: 5px;
-    font-size: 16px;
-}
-
-#search-button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    font-size: 18px;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-
-    /* padding: 5px 10px;
-    font-size: 16px;
-    cursor: pointer; */
-}
-
 .form-text {
     font-size: 14px;
     color: #fefefe;
@@ -178,6 +149,7 @@ input {
 .btn-primary:hover {
     background-color: #0056b3;
 }
+
 .btn-secondary {
     margin-top: 10px;
     padding: 10px 20px;
@@ -192,6 +164,7 @@ input {
 .btn-secondary:hover {
     background-color: #093918;
 }
+
 .menu-container {
     width: 100%;
     background: #343a40;
@@ -202,90 +175,106 @@ input {
 .form-group {
     margin-bottom: 15px;
 }
- 
+
 .cat-terror {
     background-image: url("./Imagenes/terror.jpg");
 }
+
 .cat-accion {
     background-image: url("./Imagenes/accion.jpg");
 }
+
 .cat-mundo {
     background-image: url("./Imagenes/abierto.jpg");
 }
+
 .cat-free {
     background-image: url("./Imagenes/free.jpg");
 }
+
 .cat-super {
     background-image: url("./Imagenes/super.jpg");
 }
+
 .cat-carrera {
     background-image: url("./Imagenes/carrera.jpg");
 }
 
 .sidebar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 200px;
-            height: 100vh;
-            background-color: #343a40; /* Color de fondo del menú lateral */
-            padding-top: 20px;
-        }
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #343a40;
+    /* Color de fondo del menú lateral */
+    padding-top: 20px;
+}
 
 .category {
-            margin-bottom: 20px;
-            padding: 10px;
-            border-radius: 10px;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            cursor: pointer;
-        }
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
 
 .category a {
-            color: white;
-            text-decoration: none;
-        }
+    color: white;
+    text-decoration: none;
+}
 
 .category h3 {
-            margin-top: 10px;
-            font-size: 18px;
-            font-weight: bold;
-            color: white;
-        }
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
 
 .main-content {
-            padding-left: 220px; /* Ancho del menú lateral + espacio */
-        }
+    padding-left: 220px;
+    /* Ancho del menú lateral + espacio */
+}
 
 .navbar-nav {
-            margin: 0 auto;
-          }
-          .navbar-nav > li {
-            margin-right: 20px; /* Espacio entre elementos del menú */
-          }
-        .profile-container {
-            margin-top: 50px;
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 10px;
-        }
-        .profile-container h2 {
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        .profile-info {
-            margin-bottom: 20px;
-        }
-        .profile-info label {
-            font-size: 18px;
-        }
-        .profile-info p {
-            font-size: 16px;
-        }
-        .btn-edit-profile {
-            margin-top: 20px;
-        }
-        #form-edicion {
-            display: none;
-        }
+    margin: 0 auto;
+}
+
+.navbar-nav>li {
+    margin-right: 20px;
+    /* Espacio entre elementos del menú */
+}
+
+.profile-container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.profile-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profile-info {
+    margin-bottom: 20px;
+}
+
+.profile-info label {
+    font-size: 18px;
+}
+
+.profile-info p {
+    font-size: 16px;
+}
+
+.btn-edit-profile {
+    margin-top: 20px;
+}
+
+#form-edicion {
+    display: none;
+}
