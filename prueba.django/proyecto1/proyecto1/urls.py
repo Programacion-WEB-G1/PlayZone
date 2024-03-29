@@ -20,5 +20,5 @@ from proyecto1.views import home
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('playzone/',home = 'home'),
+    path('playzone/',home = "home"),
 ]
